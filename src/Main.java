@@ -35,5 +35,9 @@ public class Main {
 
         square = new Square("yello", false, 8);
         System.out.println(square);
+
+        Triangle triangle = new Triangle(3,4,5);
+        System.out.println(triangle.getArea());
+        System.out.println(triangle);
     }
 }
